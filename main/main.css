@@ -1,0 +1,115 @@
+@media screen and (max-width: 767px) {
+        .main__heading {
+        margin: 24px 0 24px 0;
+    }
+    .main__fade {
+        position: absolute;
+        height: 100%;
+        left: 92.5%;
+        right: 0%;
+        background: linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.0001) 100%);
+    }
+    .main__navigation-bar {
+        flex-wrap: nowrap;
+        overflow: auto;
+        padding-left: 16px;
+    }
+    .main__menu {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1119px) {
+    .main {
+        margin-right: 5px;
+    }
+    .main__fade {
+        position: absolute;
+        height: 100%;
+        left: 92.5%;
+        right: 0%;
+        background: linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.0001) 100%);
+    }
+    .main__navigation-bar {
+        flex-wrap: nowrap;
+        overflow: auto;
+        padding-left: 24px;
+    }
+    .main__menu {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1120px) {
+    .main__navigation-bar {
+        flex-wrap: wrap;
+        padding-left: 32px;
+    }
+    .main__menu {
+        display: flex;
+    }
+    .main__header{
+        padding-top: 42px;
+    }
+}
+
+.main {
+    text-align: left;
+    color: #1b1c21;
+    background-color: #F8F8F8;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+
+.main__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.main__heading {
+    margin-right: auto;
+}
+
+.main__menu {
+    align-items: center;
+}
+
+.main__link {
+    font-weight: bold;
+    text-decoration: none;
+    color: #1b1c21;
+}
+
+.main__button {
+    padding: 8px 32px;
+    color: #7E7E82;
+    white-space: nowrap;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+.main__button:focus {
+    background-color: white;
+}
+
+.main__button-icon {
+    margin-left: 8px;
+    margin-right: 32px;
+}
+
+.main__navigation-bar {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    -ms-overflow-style: none;
+}
+
+.main__navigation-bar::-webkit-scrollbar {
+    display: none;
+}
